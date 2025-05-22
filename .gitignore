@@ -1,0 +1,8 @@
+fabrication-toolkit-options.json
+local.bak
+production/
+fp-info-cache
+tsubaki_lite-backups/
+*.dsn
+*.ses
+*.zip
