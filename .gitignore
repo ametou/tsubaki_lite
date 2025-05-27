@@ -6,3 +6,6 @@ tsubaki_lite-backups/
 *.dsn
 *.ses
 *.zip
+*.csv
+*.xml
+*.lck

@@ -60,15 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|103905000|103305000|1c04eead-863d-4fce-a2a1-f8bcdb2ba5c5|ac6a0932-d894-45be-867b-e221999537fa",
+          "courtyards_overlap|106525000|105955000|84671cef-f196-428f-88ea-5b577a495c58|d767bc18-79ce-4328-91fc-6e7877d3f52c",
           ""
         ],
         [
-          "courtyards_overlap|118930000|103305000|2dc8ea6f-47ff-4b97-9372-05d5b8b7f466|369a5f51-1da7-4b45-b600-ee6342c4286f",
+          "courtyards_overlap|122525000|105955000|1e86c72d-4e63-4819-8950-3323a9f4078b|a51ee215-5731-47ec-9283-492dd3e9b37a",
           ""
         ],
         [
-          "courtyards_overlap|133905000|103305000|9b915c61-141d-443a-939e-2f65cc3ac8b1|feb105bd-0d48-4926-9635-4e20ac9ebfcd",
+          "courtyards_overlap|138587500|105955000|294a05d0-0591-46cb-8cf7-f9b86a94b874|8312f20c-03b4-4a0d-bdd0-d97ee86db67b",
           ""
         ]
       ],
@@ -89,12 +89,12 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "ignore",
-        "hole_to_hole": "ignore",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -106,7 +106,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
@@ -115,7 +115,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -483,7 +483,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
