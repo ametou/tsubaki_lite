@@ -1,8 +1,10 @@
 fabrication-toolkit-options.json
-local.bak
+*.bak
+*.kicad_sch-bak
 production/
 fp-info-cache
 tsubaki_lite-backups/
+cad/
 *.dsn
 *.ses
 *.zip

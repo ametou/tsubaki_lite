@@ -60,15 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|106525000|105955000|84671cef-f196-428f-88ea-5b577a495c58|d767bc18-79ce-4328-91fc-6e7877d3f52c",
+          "courtyards_overlap|108675000|106055000|16224d21-baea-487e-a0f5-9d8c2aa833b1|c313285d-8d45-4a5f-b18d-5e9af11eff1d",
           ""
         ],
         [
-          "courtyards_overlap|122525000|105955000|1e86c72d-4e63-4819-8950-3323a9f4078b|a51ee215-5731-47ec-9283-492dd3e9b37a",
+          "courtyards_overlap|128175000|106055000|1cf59d66-2c83-4302-9e15-49a2fc427496|c9a8eb3f-85d0-4fcb-a20b-162ba44113c9",
           ""
         ],
         [
-          "courtyards_overlap|138587500|105955000|294a05d0-0591-46cb-8cf7-f9b86a94b874|8312f20c-03b4-4a0d-bdd0-d97ee86db67b",
+          "courtyards_overlap|147675000|106055000|000d10bf-e990-4bf8-bdfc-ea919fdce799|89522bbf-b741-4695-b809-db34b2a570b9",
+          ""
+        ],
+        [
+          "courtyards_overlap|167175000|106055000|abde4466-99f2-4ade-9f44-d84e3fc40754|e2a922c9-5490-4414-9b40-4b300287adc3",
           ""
         ]
       ],
@@ -94,7 +98,7 @@
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "ignore",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -568,7 +572,7 @@
       "plot": "./artifacts",
       "pos_files": "./manual-pcba/",
       "specctra_dsn": "tsubaki_lite.dsn",
-      "step": "",
+      "step": "tsubaki_lite.step",
       "svg": "",
       "vrml": ""
     },
